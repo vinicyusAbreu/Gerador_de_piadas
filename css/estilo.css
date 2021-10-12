@@ -1,0 +1,45 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    background-color: rgb(54, 54, 54);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 7rem;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+button {
+    color: whitesmoke;
+    background-color: transparent;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: .8rem 3rem;
+    margin-top: 5rem;
+    border: 1px solid whitesmoke;
+    transition: .2s;
+}
+
+button:active {
+    padding: .7rem 2.9rem;
+}
